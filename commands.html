@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    GIT COMMANDS: <br><br>
 
-CONFIGURATION:<br>
-git --version<br>
-git config --global user.name “name”<br>
-git config --global user.email “---”<br>
-git config --list<br><br>
-CLONE & STATUS:<br>
-	git clone -link-<br>
-	git status<br><br>
-cd: change directory<br>
-cd .. : exit directory<br>
-mkdir: new directory<br>
-clear<br>
-ls: list files<br>
-ls -h: hidden files<br><br>
-ADD & COMMIT:<br>
-	git add file_name<br>
-	git commit -m “message”<br>
-	git push origin -branch-<br><br>
-INIT COMMANDS:<br>
-	git remote add origin -link-<br>
-	git init : create a new repo<br>
-git remote -v: to verify remote<br>
-git branch : to check branch<br>
-git branch -M main: to rename branch<br>
-git push origin main<br>
-git push -u: set origin main as default for push<br>
-<br>
-BRANCH COMMANDS:<br>
-	git branch : to check branch<br>
-	git branch -M main: to rename branch<br>
-	git checkout : exit branch<br>
-	git checkout -b -new branch name -<br>
-	git branch -d -name-: to delete branch<br>
-<br>
-MERGING A BRANCH:<br>
-	Pull request on GitHub<br>
-TO REFLECT REMOTE CHANGES ONTO LOCAL REPO:<br>
-	git pull origin -branch-<br>
-<br>
-WORKFLOW: <br>
-	Git repo => clone => changes => add => commit => push<br>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>GIT Commands</title>
+</head>
+
+<body>
+	<div id="head">
+	<h1><center>GIT COMMANDS:</center></h1>
+	</div>
+	<div id="1">
+		<h3>CONFIGURATION:</h3>
+		git --version<br>
+		git config --global user.name “name”<br>
+		git config --global user.email “---”<br>
+		git config --list<br>
+	</div>
+	<div id="2">
+		<h3>CLONE & STATUS:</h3>
+		git clone -link-<br>
+		git status<br>
+	</div>
+	<div id="3">
+		<h3>ADD & COMMIT:</h3>
+		git add file_name<br>
+		git commit -m “message”<br>
+		git push origin -branch-<br>
+	</div>
+	<div id="4">
+		<h3>INIT COMMANDS:</h3>
+		git remote add origin -link-<br>
+		git init : create a new repo<br>
+		git remote -v: to verify remote<br>
+		git branch : to check branch<br>
+		git branch -M main: to rename branch<br>
+		git push origin main<br>
+		git push -u: set origin main as default for push<br>
+	</div>
+	<div id="5">
+		<h3>BRANCH COMMANDS:</h3>
+		git branch : to check branch<br>
+		git branch -M main: to rename branch<br>
+		git checkout : exit branch<br>
+		git checkout -b -new branch name -<br>
+		git branch -d -name-: to delete branch<br>
+	</div>
+	<div id="6">
+		<h3>MERGING A BRANCH:</h3>
+		Pull request on GitHub<br>
+		To reflect local changes on remote repo: git pull origin -branch-<br>
+	</div>
+	<div id="7">
+		<h3>TERMINAL COMMANDS</h3>
+		cd: change directory<br>
+		cd .. : exit directory<br>
+		mkdir: create new directory<br>
+		clear<br>
+		ls: list files<br>
+		ls -h: hidden files<br>
+	</div>
+	<div id="8">
+		<h3>WORKFLOW:</h3>
+		Git repo => clone => changes => add => commit => push
+	</div>
 
 </body>
+
 </html>
