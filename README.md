@@ -1,3 +1,3 @@
-hey! <br>
-here are some basic Git commands that every beginner needs. <br>
-hope this helps<br>
+Hey! <br>
+Here are some basic git commands that every beginner needs. <br>
+Hope this helps :) <br>
