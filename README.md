@@ -1,4 +1,3 @@
 Hey! <br>
-Here are some basic git commands that every beginner needs. <br>
-Hope this helps :) <br>
-git is easy!
+Here are some of the projects I built and found cool<br>
+Check out my personal portfolio for the links!
